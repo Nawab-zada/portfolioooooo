@@ -83,7 +83,7 @@ export default function PortfolioSection() {
           className="relative bg-gray-800 rounded-xl shadow-2xl overflow-hidden group cursor-pointer border border-gray-600 hover:border-blue-500 transform hover:-translate-y-2 transition-all duration-300"
           onClick={() => window.open('https://standandpay.vercel.app/', '_blank')}
         >
-          <img src="/stayandpay.png" alt="Project: Global Transpay" className="w-full h-56 sm:h-64 object-cover object-center" />
+          <img src="/stayandpay.PNG" alt="Project: Global Transpay" className="w-full h-56 sm:h-64 object-cover object-center" />
           <div className="p-6 sm:p-7">
             <h3 className="text-xl sm:text-2xl font-semibold mb-2 text-blue-400">Global Transpay Platform</h3>
             <p className="text-gray-300 text-sm leading-relaxed">A secure and efficient global payment and financial hub, offering diverse services from trading platforms to international scholarships and virtual cards.</p>
