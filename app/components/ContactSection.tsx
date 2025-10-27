@@ -20,7 +20,7 @@ export default function ContactSection() {
     // In a real application, you would send this formData to your backend here.
     // For now, we'll construct the WhatsApp message.
     const whatsappMessage = `Hello, my name is ${formData.name}.\nEmail: ${formData.email}\nSubject: ${formData.subject}\nMessage: ${formData.message}`;
-    const whatsappUrl = `https://wa.me/YOUR_WHATSAPP_NUMBER?text=${encodeURIComponent(whatsappMessage)}`;
+    const whatsappUrl = `https://wa.me/923028334266?text=${encodeURIComponent(whatsappMessage)}`;
     window.open(whatsappUrl, '_blank');
     // Optionally clear the form after submission
     setFormData({

@@ -7,6 +7,9 @@ import AboutSection from './components/AboutSection';
 import PortfolioSection from './components/PortfolioSection';
 import ServicesSection from './components/ServicesSection';
 import ContactSection from './components/ContactSection';
+import { motion } from 'framer-motion';
+import { useState } from 'react';
+import { FaWhatsapp } from "react-icons/fa";
 
 export default function Home() {
   return (
@@ -42,6 +45,20 @@ export default function Home() {
           <p className="mt-3 text-gray-500 text-xs">Built with Next.js & Tailwind CSS</p>
         </div>
       </footer>
+
+ 
+
+
+    <a
+      href="https://wa.me/923028334266" // 👉 replace with your WhatsApp number (format: https://wa.me/<countrycode><number>)
+      target="_blank"
+      rel="noopener noreferrer"
+      className="fixed bottom-6 right-6 bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg transition-transform duration-300 transform hover:scale-110 z-50"
+    >
+      <FaWhatsapp size={28} />
+    </a>
+  
+
     </div>
   );
 }
